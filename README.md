@@ -1,5 +1,7 @@
 # smpc
 
+SMPC is a privacy-preserving framework for generative models hosted in cloud environments to safeguard user prompts, model weights, and outputs by leveraging a cryptographic technique known as Secure Multiparty Computation (SMPC). This technique involves computations that are distributed in a manner that no party gains more information than needed. SPMC is accomplished by dividing the input into shares, which are handed to each participating party. Inspired by this principle, we propose a single-client, multi-server architecture with each server hosting one or more attention layers of the transformer model to safeguard user privacy. This work was published at the Deployable AI workshop at AAAI’25.
+
 ## Pre-requisite
 To run the scripts, the diffusers library has been customized to be compatible with the split transformer logic. Follow these steps:
 
